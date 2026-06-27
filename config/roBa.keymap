@@ -55,16 +55,6 @@
             key-positions = <24 25>;
         };
 
-        LCLK {
-            bindings = <&mkp MB1>;
-            key-positions = <18 19>;
-        };
-
-        RCLK {
-            bindings = <&mkp MB2>;
-            key-positions = <19 20>;
-        };
-
         coron {
             bindings = <&kp APOSTROPHE>;
             key-positions = <29 30>;
