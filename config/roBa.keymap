@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    flavor = "balanced";
+    flavor = "tap-preferred";
     quick-tap-ms = <0>;
     tapping-term-ms = <280>;
 };
@@ -53,6 +53,36 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        LCLK {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+        };
+
+        RCLK {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+        };
+
+        ABC {
+            bindings = <&kp GRAVE>;
+            key-positions = <23 24>;
+        };
+
+        coron {
+            bindings = <&kp APOSTROPHE>;
+            key-positions = <29 30>;
+        };
+
+        L-Kakko {
+            bindings = <&kp N8>;
+            key-positions = <6 7>;
+        };
+
+        R-Kakko {
+            bindings = <&kp N9>;
+            key-positions = <7 8>;
         };
     };
 
