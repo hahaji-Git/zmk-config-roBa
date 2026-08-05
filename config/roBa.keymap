@@ -83,9 +83,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LS(LEFT_BRACKET)>,
+                <&kp LEFT_BRACKET>,
                 <&macro_wait_time 15>,
-                <&kp LS(RIGHT_BRACKET)>,
+                <&kp RIGHT_BRACKET>,
                 <&macro_wait_time 15>,
                 <&kp RET>,
                 <&macro_wait_time 15>,
@@ -122,10 +122,10 @@
 
         FUNCTION {
             bindings = <
-&kp LC(LA(DEL))  &trans  &trans  &trans                         &trans                                                  &kp SINGLE_QUOTE  &kp POUND   &kp DOLLAR            &kp PERCENT            &kp AMPERSAND
-&trans           &trans  &trans  &trans                         &trans                         &trans      &kp C_PAUSE  &kp F6            &kp F7      &macro_kakko          &kp RIGHT_BRACKET      &kp AT
-&trans           &trans  &trans  &trans                         &trans                         &trans      &trans       &kp LS(N8)        &kp LS(N9)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_BACKSLASH)
-&trans           &trans  &trans  &lt_to_layer_0 1 INT_MUHENKAN  &lt_to_layer_0 6 INT_MUHENKAN  &trans      &trans       &trans                                                                     &kp F12
+&kp LC(LA(DEL))  &trans  &trans  &trans                         &trans                                                  &kp SINGLE_QUOTE  &kp POUND   &kp DOLLAR        &kp PERCENT        &kp AMPERSAND
+&trans           &trans  &trans  &trans                         &trans                         &trans      &kp C_PAUSE  &kp F6            &kp F7      &macro_kakko      &macro_kagi        &kp AT
+&trans           &trans  &trans  &trans                         &trans                         &trans      &trans       &kp LS(N8)        &kp LS(N9)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(NON_US_BACKSLASH)
+&trans           &trans  &trans  &lt_to_layer_0 1 INT_MUHENKAN  &lt_to_layer_0 6 INT_MUHENKAN  &trans      &trans       &trans                                                             &kp F12
             >;
         };
 
